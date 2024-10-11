@@ -770,6 +770,7 @@ typeText{
 }
 
 .footer_title{
+  font-family: "Homemade Apple", cursive;
   font-size: var(--h1-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: 1rem;
