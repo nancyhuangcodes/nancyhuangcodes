@@ -1,528 +1,549 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/nancy_favicon.ico" type="image/x-icon">
+<!--=============== FAVICON ===============-->
+<link rel="shortcut icon" href="assets/img/nancy_favicon.ico" type="image/x-icon">
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-       <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+<!--=============== REMIXICONS ===============-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<!--=============== SWIPER CSS ===============-->
+<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <!------------ Google fonts ------------->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<!--=============== CSS ===============-->
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<!------------ Google fonts ------------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 
-        <title>Nancy Huang UI/UX | Full-Stack Developer Portfolio</title>
-    </head>
-    <body>
+<title>Nancy Huang UI/UX | Full-Stack Developer Portfolio</title>
+</head>
+<body>
+
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+<nav class="nav container">
+<a href="#" class="nav_logo">
+    Nancy Huang
+</a>
+
+<div class="nav_menu" id="nav-menu">
+    <ul class="nav_list grid">
+
+        <li class="nav_item">
+            <a href="#about" class="nav_link">
+                <i class="ri-emotion-happy-line"></i> About
+            </a>
+        </li>
+
+
+        <li class="nav_item">
+            <a href="#skills" class="nav_link">
+                <i class="ri-trophy-line"></i> Skills
+            </a>
+        </li>
         
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav_logo">
-                    Nancy Huang
-                </a>
-                
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list grid">
+        <li class="nav_item">
+            <a href="#services" class="nav_link"> 
+                <i class="ri-hand-heart-line"></i> Services
+            </a>
+        </li>
 
-                        <li class="nav_item">
-                            <a href="#about" class="nav_link">
-                                <i class="ri-emotion-happy-line"></i> About
-                            </a>
-                        </li>
-
-
-                        <li class="nav_item">
-                            <a href="#skills" class="nav_link">
-                                <i class="ri-trophy-line"></i> Skills
-                            </a>
-                        </li>
-                        
-                        <li class="nav_item">
-                            <a href="#services" class="nav_link"> 
-                                <i class="ri-hand-heart-line"></i> Services
-                            </a>
-                        </li>
-
-                        <li class="nav_item">
-                            <a href="#projects" class="nav_link">
-                                <i class="ri-code-s-slash-line"></i> Projects
-                            </a>
-                        </li>
-                        
-                        <li class="nav_item">
-                            <a href="#contact" class="nav_link"> 
-                                <i class="ri-mail-line"></i> Contact
-                            </a>
-                        </li>
-
-                        <li class="nav_item">
-                            <a href="#resume" class="nav_link">
-                                <i class="ri-file-list-3-line"></i> Resume
-                            </a>
-                        </li>
-
-                    </ul>
-
-                    <!-- Close button -->
-                     <div class="nav_close" id="nav-close">
-                        <i class="ri-close-circle-line"></i> 
-                     </div>
-                </div>
-
-                <div class="nav_buttons">
-                    <!-- Theme change button -->
-                    <i class="ri-moon-clear-line change-theme" id="theme-button"></i>
-                    <!-- Toggle button -->
-                     <div class="nav_toggle" id="nav-toggle">
-                        <i class="ri-menu-4-line"></i> 
-                     </div> 
-                </div>
-            </nav>
-        </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home_container container grid section_border">
-                        
-                        <div class="home_data grid">
-                
-                        <h1 class="home_title">
-                            Hello!
-                            I'm Nancy Huang,
-                            <p class="typeText">
-                            </p>
-                        </h1>
-                    </div>
-
-                        <div class="home_blob grid">
-                            <div class="home_profile">
-                                <img src="assets/img/Nancy_profile.jpeg" alt="home profile">
-                                
-                                <img src="assets/img/shape-wawes.svg" alt="" class="home_shape_waves">
-                                <img src="assets/img/shape-circle.svg" alt="" class="home_shape_circle">
-                            </div>
-                        </div>
-                        <ul class="home_social">
-                            <a href="https://www.linkedin.com/in/hellonancyhuang" target="_blank" class="home_social_link">
-                                <i class="ri-linkedin-box-line"></i>
-                            </a>
-
-                            <a href="https://www.github.com/nancyhuangcodes" target="_blank" class="home_social_link">
-                                <i class="ri-github-line"></i>
-                            </a>
-                        </ul>
-                    </div>
-                    
-                    <!--==================== HOME INFO - ABOUT ====================-->
-                    <section class="about section" id="about">
-                        <h2 class="section_title">
-                            <i class="ri-emotion-happy-line"></i><br>
-                            About Me</h2>
-                        <span class="section_subtitle">"Tell me about yourself."</span>
-
-                    <div class="home_container container grid section_border">
-                        <div class="home_info">
-                        <div>
-                            <p class="home_info_description">
-                                Hello! Thank you for visiting. I am a UX Designer and Full-Stack Developer based in Singapore. <br><br>
-
-                                I combine creativity, logical thinking and past work experiences in sales, communications and customer service to craft accessible, responsive, SEO-friendly and delightful human-centric solutions. <br><br>
-
-                                On my days off, I love to read, travel, cook and bake. I'm a nurturer at heart and I enjoy gathering with friends and family over homecooked meals at my place!
-                            </p>
-                        </div>
-                    </div>
-                    
-                     <!--==================== HOME INFO 2 ====================-->
-                     
-
-                </div>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                
-                <h2 class="section_title">
-                    <i class="ri-trophy-line"></i><br>
-                    Skills</h2>
-                <span class="section_subtitle">What I can do</span>
-
-                <div class="skills_container container grid section_border">
-            <!--==================== SKILLS 1 ====================-->
-                    <div class="skills_content">
-                        <h3 class="class skills_title">
-                            <i class="ri-code-box-line"></i>
-                            Front-End Developer
-                        </h3>
-                        <div class="class skills_info">
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/html-1.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">HTML</h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-                        
-
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/css-3.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">
-                                    CSS
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/logo-javascript.svg" alt="skills image">
-                                </div>
-
-                                <h3 class="class skills_name">
-                                    JavaScript
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/react-2.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">
-                                React
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-                            
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/bootstrap-5-1.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">
-                               Bootstrap
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/git-icon.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">
-                               Git
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--========================= SKILLS 2 =============================-->
-                    <div class="skills_content">
-                        <h3 class="class skills_title">
-                            <i class="ri-pencil-ruler-2-line"></i> UI / UX
-                        </h3>
-
-                        <div class="class skills_info">
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/figma-1.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">
-                                    Figma
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>                       
-
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/adobe-xd-1.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">
-                                    Adobe XD
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-                          
-                            <div class="skills_data">
-                                <div class="skills_blob">
-                                    <img src="assets/img/adobe-photoshop-2.svg" alt="skills image">
-                                </div>
-                                <h3 class="class skills_name">
-                                    Adobe Photoshop
-                                </h3>
-                                <span class="skills_subtitle"></span>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-            </section>
-
-             <!--==================== SERVICES ====================-->
-             <section class="services section" id="services">
-
-                <h2 class="section_title">
-                    <i class="ri-hand-heart-line"></i><br>
-                    Services
-                </h2>
-
-                <span class="section_subtitle">Freelance or contract</span>
-                    
-                <div class="services_container container grid section_border">
-                    
-                        <div class="services_card">
-                            <i class="ri-pencil-ruler-2-line"></i>                 
-                            <h2 class="services_title"> 
-                            UI/UX Design
-                            </h2>
-                        
-                        <p class="services_description">
-                            I believe that the first step to solving any user problem is being humble, taking proactive steps to understand user pain points and motivations as well as working collaboratively within a team to achieve business goals while meeting user needs.
-                        </p>
-
-                        <div class="services_border">
-                        </div>
-                        </div>
-
-                        <div class="services_card">
-                            <i class="ri-code-box-line"></i>
-                            <h2 class="services_title">
-                                Front-End Development
-                            </h2>
-                            <p class="services_description">
-                             I work with HTML, CSS and JavaScript to design accessible, responsive and human-centric solutions. 
-                            </p>
-    
-                            <div class="services_border">    
-                            </div>
-                        </div>
-
-                            <div class="services_card">
-                                <i class="ri-file-search-line"></i>                                <h2 class="services_title">
-                                    Search Engine Optimisation
-                                </h2>
-                                <p class="services_description">
-                                    I leverage on keyword search, on-page, off-page SEO strategies and the latest tools to analyse and identify growth opportunities to implement tailored solutions that lead to conversion for your website.
-                                </p>
+        <li class="nav_item">
+            <a href="#projects" class="nav_link">
+                <i class="ri-code-s-slash-line"></i> Projects
+            </a>
+        </li>
         
-                                <div class="services_border">    
-                                </div>
-                            </div>
-                    </div>        
-            </section>
-          
-            <!--==================== PROJECTS ====================-->
-            <section class="projects section" id="projects">
-                
-                <h2 class="section_title">
-                    <i class="ri-code-s-slash-line"></i><br>
-                    Projects
-                </h2>
-                <span class="section_subtitle">Here's some stuff I've created</span>
-                
-                <div class="container section_border">
-                    <div class="projects_container swiper">
-                        <div class="swiper-wrapper">
-                            <!--==================== PROJECT 1 ====================-->
-                        <div class="projects_content swiper-slide">
-                            <img src="assets/img/project1.jpg" alt="projects image" class="projects_img">
-                            <div>
-                                <span class="projects_substitle">Full-stack Development</span>
-                                    <h1 class="projects_title">Financial Education Website</h1>
-                                    <a href="#" class="projects_button">
-                                        View <i class="ri-arrow-right-circle-line"></i>
-                                    </a>
-                                </div>
-                             </div>
+        <li class="nav_item">
+            <a href="#contact" class="nav_link"> 
+                <i class="ri-mail-line"></i> Contact
+            </a>
+        </li>
 
-                             <!--==================== PROJECT 2 ====================-->
-                             <div class="projects_content swiper-slide">
-                                <img src="assets/img/project2.jpg" alt="projects image" class="projects_img">
-                                <div>
-                                    <span class="projects_substitle">REST API, Unit Testing</span>
-                                        <h1 class="projects_title">Book Inventory Management</h1>
-                                        <a href="#" class="projects_button">
-                                            View <i class="ri-arrow-right-circle-line"></i>
-                                        </a>
-                                    </div>
-                                 </div>
+        <li class="nav_item">
+            <a href="#resume" class="nav_link">
+                <i class="ri-file-list-3-line"></i> Resume
+            </a>
+        </li>
 
-                             <!--==================== PROJECT 3 ====================-->
-                             <div class="projects_content swiper-slide">
-                                <img src="assets/img/project3.jpg" alt="projects image" class="projects_img">
-                                <div>
-                                    <span class="projects_substitle">Full-stack Development</span>
-                                        <h1 class="projects_title">Financial Education Website</h1>
-                                        <a href="#" class="projects_button">
-                                            View <i class="ri-arrow-right-circle-line"></i>
-                                        </a>
-                                    </div>
-                                 </div>
+    </ul>
 
-                             <!--==================== PROJECT 4 ====================-->
-                        <div class="projects_content swiper-slide">
-                            <img src="assets/img/project4.jpg" alt="projects image" class="projects_img">
-                            <div>
-                                <span class="projects_substitle">JavaScript</span>
-                                    <h1 class="projects_title">Find The Hat Game</h1>
-                                    <a href="#" class="projects_button">
-                                        View <i class="ri-arrow-right-circle-line"></i>
-                                    </a>
-                                </div>
-                             </div>
+    <!-- Close button -->
+        <div class="nav_close" id="nav-close">
+        <i class="ri-close-circle-line"></i> 
+        </div>
+</div>
 
-                                <!--==================== PROJECT 5 ====================-->
-                        <div class="projects_content swiper-slide">
-                            <img src="assets/img/project4.jpg" alt="projects image" class="projects_img">
-                            <div>
-                                <span class="projects_substitle">Responsive Website</span>
-                                    <h1 class="projects_title"></h1>
-                                    <a href="#" class="projects_button">
-                                        View <i class="ri-arrow-right-circle-line"></i>
-                                    </a>
-                                </div>
-                             </div>
-                        </div>
+<div class="nav_buttons">
+    <!-- Theme change button -->
+    <i class="ri-moon-clear-line change-theme" id="theme-button"></i>
+    <!-- Toggle button -->
+        <div class="nav_toggle" id="nav-toggle">
+        <i class="ri-menu-4-line"></i> 
+        </div> 
+</div>
+</nav>
+</header>
 
-                        <!-- Swiper arrows -->
-                        <div class="swiper-button-next">
-                            <i class="ri-arrow-right-s-line"></i>
-                        </div>
+<!--==================== MAIN ====================-->
+<main class="main">
+<!--==================== HOME ====================-->
+<section class="home section" id="home">
+<div class="home_container container grid section_border">
+        
+        <div class="home_data grid">
 
-                        <div class="swiper-button-prev">
-                            <i class="ri-arrow-left-s-line"></i>
-                        </div>
-                        <!-- Swiper pagination -->
-                        <div class="swiper-pagination"></div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== CONTACT ====================-->
-            <section class="contact-section" id="contact">
-                <!-- <h2 class="section_title">Contact Me</h2>
-                <span class="section_subtitle">If you would like to collaborate with me, drop me a note here!
-                </span> -->
-
-      <h2 class="section_title"><i class="ri-mail-line"></i><br>
-        Contact Me</h2>
-      <span class="section_subtitle">
-        Let's collaborate! Drop me a note here.
-      </span>
+        <h1 class="home_title">
+            Hello!
+            I'm Nancy Huang,
+            <p class="typeText">
+            </p>
+        </h1>
     </div>
-  
-    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-  
-      <input type="hidden" name="access_key" value="87710936-4025-4b14-87a9-70a9921fe128"/>
-      <input type="hidden" name="subject" value="New Contact Form Submission" />
-      <input type="hidden" name="from_name" value="Nancy Huang | Full-Stack Developer"/>
-  
-      <div class="form-group-container">
-        <div class="form-group">
-          <label for="name" class="form-label">Name:</label>
-          <input id="name" name="name" class="form-input" placeholder="Your name" type="text" required/>
+
+        <div class="home_blob grid">
+            <div class="home_profile">
+                <img src="assets/img/Nancy_profile.jpeg" alt="home profile">
+                
+                <!-- <img src="assets/img/shape-wawes.svg" alt="" class="home_shape_waves">
+                <img src="assets/img/shape-circle.svg" alt="" class="home_shape_circle"> -->
+            </div>
         </div>
-        <div class="form-group">
-          <label for="email" class="form-label">Email:</label>
-          <input id="email" name="email" class="form-input" placeholder="Your email" type="email" required/>
+
+        <ul class="header_social">
+        <a href="https://www.github.com/nancyhuangcodes" target="_blank" class="footer_social-link">
+        <i class="ri-github-line"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/hellonancyhuang" target="_blank" class="footer_social-link">
+        <i class="ri-linkedin-box-line"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/hellonancyhuang" target="_blank" class="footer_social-link">
+        <i class="ri-file-list-3-line"></i>
+    </a>
+</ul>
+
+    </div>
+    
+    <!--==================== HOME INFO - ABOUT ====================-->
+    <section class="about section" id="about">
+        <h2 class="section_title">
+            <i class="ri-emotion-happy-line"></i><br>
+            About Me</h2>
+        <span class="section_subtitle">"Tell me about yourself."</span>
+
+    <div class="home_container container grid section_border">
+        <div class="home_info">
+        <div>
+            <p class="home_info_description">
+                Hello! Thank you for visiting. I am a UX Designer and Full-Stack Developer based in Singapore. <br><br>
+
+                I combine creativity, logical thinking and past work experiences in sales, communications and customer service to craft accessible, responsive, SEO-friendly and delightful human-centric solutions. <br><br>
+
+                On my days off, I love to read, travel, cook and bake. I'm a nurturer at heart and I enjoy gathering with friends and family over homecooked meals at my place!
+            </p>
         </div>
+    </div>
+    
+        <!--==================== HOME INFO 2 ====================-->
+        
+
+</div>
+</section>
+
+<!--==================== SKILLS ====================-->
+<section class="skills section" id="skills">
+
+<h2 class="section_title">
+    <i class="ri-trophy-line"></i><br>
+    Skills</h2>
+<span class="section_subtitle">What I can do</span>
+
+<div class="skills_container container grid section_border">
+<!--==================== SKILLS 1 ====================-->
+    <div class="skills_content">
+
+        <h3 class="class skills_title">
+            <i class="ri-code-box-line"></i>
+            Front-End Developer
+        </h3>
+        <div class="class skills_info">
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/html-1.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">HTML</h3>
+                <span class="skills_subtitle"></span>
+            </div>
+        
+
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/css-3.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">
+                    CSS
+                </h3>
+                <span class="skills_subtitle"></span>
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/logo-javascript.svg" alt="skills image">
+                </div>
+
+                <h3 class="class skills_name">
+                    JavaScript
+                </h3>
+                <span class="skills_subtitle"></span>
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/react-2.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">
+                React
+                </h3>
+                <span class="skills_subtitle"></span>
+            </div>
+            
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/bootstrap-5-1.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">
+                Bootstrap
+                </h3>
+                <span class="skills_subtitle"></span>
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/git-icon.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">
+                Git
+                </h3>
+                <span class="skills_subtitle"></span>
+            </div>
+
+        </div>
+    </div>
+    <!--========================= SKILLS 2 =============================-->
+    <div class="skills_content">
+        <h3 class="class skills_title">
+            <i class="ri-pencil-ruler-2-line"></i> UI / UX
+        </h3>
+
+        <div class="class skills_info">
+
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/figma-1.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">Figma</h3>
+                <span class="skills_subtitle"></span>
+            </div>                     
+
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/adobe-xd-1.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">
+                    Adobe XD
+                </h3>
+                <span class="skills_subtitle"></span>
+            </div>
+            
+            <div class="skills_data">
+                <div class="skills_blob">
+                    <img src="assets/img/adobe-photoshop-2.svg" alt="skills image">
+                </div>
+                <h3 class="class skills_name">
+                    Adobe Photoshop
+                </h3>
+                <span class="skills_subtitle"></span>
+            </div>
+        </div>                    
+
+    </div>                    
+</div>
+</section>
+
+<!--==================== SERVICES ====================-->
+<section class="services section" id="services">
+
+<h2 class="section_title">
+    <i class="ri-hand-heart-line"></i><br>
+    Services
+</h2>
+
+<span class="section_subtitle">Freelance or contract</span>
+    
+<div class="services_container container grid section_border">
+    
+        <div class="services_card">
+            <i class="ri-pencil-ruler-2-line"></i>                 
+            <h2 class="services_title"> 
+            UI/UX Design
+            </h2>
+        
+        <p class="services_description">
+            I believe that the first step to solving any user problem is being humble, taking proactive steps to understand user pain points and motivations as well as working collaboratively within a team to achieve business goals while meeting user needs.
+        </p>
+
+        <div class="services_border">
+        </div>
+        </div>
+
+        <div class="services_card">
+            <i class="ri-code-box-line"></i>
+            <h2 class="services_title">
+                Front-End Development
+            </h2>
+            <p class="services_description">
+                I work with HTML, CSS and JavaScript to design accessible, responsive and human-centric solutions. 
+            </p>
+
+            <div class="services_border">    
+            </div>
+        </div>
+
+            <div class="services_card">
+                <i class="ri-file-search-line"></i>                                
+                <h2 class="services_title">
+                    Search Engine Optimisation
+                </h2>
+                <p class="services_description">
+                    I leverage on keyword search, on-page, off-page SEO strategies and the latest tools to analyse and identify growth opportunities to implement tailored solutions that lead to conversion for your website.
+                </p>
+                <div class="services_border">    
+                </div>
+            </div>
+    </div>        
+</section>
+
+<!------------------------ Projects ------------------------------>
+
+
+<section class="projects section" id="projects">
+
+<h2 class="section_title">
+    <i class="ri-code-s-slash-line"></i><br>
+    Projects
+</h2>
+<span class="section_subtitle">Here's some stuff I've built</span>
+
+<div class="projects_container container grid section_border">
+
+    <div class="projects_card">   
+         <div class="projects_card"> 
+            <h2 class="projects_title"> 
+            Little Fin Smart Kids 
+            <!-- <p class="section_subtitle">Languages/Framework: </p> -->
+            </h2>
+            <img src="/assets/img/littlefins.gif" class="projects_img">
+            </div>
+
+
+            <h2 class="projects_roles"> 
+                UI/UX Design | Front-End Development | Project Management </h2>
+
+        <div class="projects_description">
+        <ul>
+            <li class="projects_description">A capstone project built with the aim to introduce simple financial concepts to young children in a fun and engaging manner.</li>
+            <li class="projects_description">User-friendly interface for children to play and learn at the same time.</li>
+        </ul><br>
+        </div>
+
+    <div class="btn-container">
+        <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/nancyhuangcodes/littlefins">Github</a>   
+        </div>
+        </div>
+        
+
        
-        <div class="form-group">
-          <label for="message" class="form-label">Message:</label>
-          <textarea class="form-textarea" id="message" name="message" placeholder="Your message" required></textarea>
+    <div class="projects_card">   
+        <div class="projects_card"> 
+           <h2 class="projects_title"> 
+           Spotify Playlist
+           <!-- <p class="section_subtitle">Languages/Framework: </p> -->
+           </h2>
+           <img src="/assets/img/spotify_react.gif" class="projects_img">
+           </div>
+
+
+           <h2 class="projects_roles"> 
+                 Front-End Development (React framework) </h2>
+
+                 <div class="projects_description">
+                    <ul>
+                        <li class="projects_description">A React web application using Spotify API.</li>
+                        <li class="projects_description">User may search for songs using artist name or song title to create a customised playlist.</li>
+                        <li class="projects_description">New playlist will be added to user's spotify account.</li>
+
+                    </ul><br>
+                    </div>
+
+   <div class="btn-container">
+    <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/nancyhuangcodes/spotifyassessment.git">Github</a>   
+    <a class="btn btn-color-2 project-btn" target="_blank" href="https://nancyhuang.surge.sh">Live Demo</a>   
+       </div>
+       </div>
+
+        
+    <div class="projects_card">   
+        <div class="projects_card"> 
+           <h2 class="projects_title"> 
+            Colmar Academy       
+             <!-- <p class="section_subtitle">Languages/Framework: </p> -->
+           </h2>
+           <img src="/assets/img/colmar_academy.gif" class="projects_img">
+           </div>
+
+
+           <h2 class="projects_roles"> 
+               Front-End Development - Responsive landing page built with HTML & CSS</h2>
+
+       <div class="projects_description">
+       <ul></li>
           
-        </div>
-      </div>
-      <button class="form-submit" type="submit" required>Send Message</button>
-    </form>
-    </section>
+       </ul><br>
+       </div>
+
+   <div class="btn-container">
+        <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/nancyhuangcodes/colmaracademy.git">Github</a>   
+        <a class="btn btn-color-2 project-btn" target="_blank" href="/colmaracademy/index.html">Live Demo</a>   
+    </div>
+       </div>
+
+        </section>
+        
+
+
+<!--==================== CONTACT ====================-->
+<section class="contact-section" id="contact">
+<!-- <h2 class="section_title">Contact Me</h2>
+<span class="section_subtitle">If you would like to collaborate with me, drop me a note here!
+</span> -->
+
+<h2 class="section_title"><i class="ri-mail-line"></i><br>
+Contact Me</h2>
+<span class="section_subtitle">
+Let's collaborate! Drop me a note here.
+</span>
+
+<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+<input type="hidden" name="access_key" value="87710936-4025-4b14-87a9-70a9921fe128"/>
+<input type="hidden" name="subject" value="New Contact Form Submission" />
+<input type="hidden" name="from_name" value="Nancy Huang | Full-Stack Developer"/>
+
+<div class="form-group-container">
+
+<div class="form-group">
+<label for="name" class="form-label">Name:</label>
+<input id="name" name="name" class="form-input" placeholder="Your name" type="text" required/>
+</div>
+<div class="form-group">
+<label for="email" class="form-label">Email:</label>
+<input id="email" name="email" class="form-input" placeholder="Your email" type="email" required/>
+</div>
+
+<div class="form-group">
+<label for="message" class="form-label">Message:</label>
+<textarea class="form-textarea" id="message" name="message" placeholder="Your message" required></textarea>
+</div>
+
+<button class="form-submit" type="submit" required>Send Message</button>
+</form>
+</section>
 </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer_container container">
-                <h1 class="footer_title">Nancy Huang</h1>
-                <p>UI/UX Designer | Full-Stack Developer</p>
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+<div class="footer_container container">
+<h1 class="footer_title">Nancy Huang</h1>
+<p>UI/UX Designer | Full-Stack Developer</p>
 
-                <ul class="footer_list">
-                    <li>
-                        <a href="#home" class="footer_link">Home</a>
-                    </li>
+<ul class="footer_list">
+    <li>
+        <a href="#home" class="footer_link">Home</a>
+    </li>
 
-                    <li>
-                        <a href="#skills" class="footer_link">Skills</a>
-                    </li>
+    <li>
+        <a href="#skills" class="footer_link">Skills</a>
+    </li>
 
-                    <li>
-                        <a href="#projects" class="footer_link">Projects</a>
-                    </li>
-                </ul>
+    <li>
+        <a href="#projects" class="footer_link">Projects</a>
+    </li>
+</ul>
 
-                <ul class="footer_social">
-                    <a href="https://www.linkedin.com/in/hellonancyhuang" target="_blank" class="footer_social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                    </a>
+<ul class="footer_social">
+        <a href="https://www.github.com/nancyhuangcodes" target="_blank" class="footer_social-link">
+        <i class="ri-github-line"></i>
+    </a>
 
-                    <a href="https://www.github.com/nancyhuangcodes" target="_blank" class="footer_social-link">
-                        <i class="ri-github-line"></i>
-                    </a>
-                </ul>
+    <a href="https://www.linkedin.com/in/hellonancyhuang" target="_blank" class="footer_social-link">
+        <i class="ri-linkedin-box-line"></i>
+    </a>
 
-                <span class="footer_copy">
-                    Lovingly created with HTML, CSS and JavaScript<br>
-                    &#169; All rights reserved. 
-                </span>
+    <a href="https://www.linkedin.com/in/hellonancyhuang" target="_blank" class="footer_social-link">
+        <i class="ri-file-list-3-line"></i>
+    </a>
 
-            </div>
-        </footer>
+</ul>
 
+<span class="footer_copy">
+    Lovingly created with HTML, CSS and JavaScript<br>
+    &#169; All rights reserved. 
+</span>
 
-         <!--========== SCROLL UP ==========-->
-
-         <a href='#' class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-line"></i>
-        </a>
+</div>
+</footer>
 
 
+<!--========== SCROLL UP ==========-->
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+<a href='#' class="scrollup" id="scroll-up">
+<i class="ri-arrow-up-line"></i>
+</a>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        
-        <!--=============== EMAIL JS ===============-->
 
-        <!--Start of Tawk.to Script-->
+
+<!--=============== SCROLLREVEAL ===============-->
+<script src=""></script>
+
+<!--=============== SWIPER JS ===============-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--=============== EMAIL JS ===============-->
+
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6707f42d8679f374f404e5f7/1i9rh3m10';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
-        
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6707f42d8679f374f404e5f7/1i9rh3m10';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
